@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+ul,li{
+  list-style: none;
+}
+.app {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.footer {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+}
+
+
+
+
+.fa {
+  margin-top: 10px;
+}
+
+.fa span {
+  font-size: 1.2em;
+  color: #FFD700;
+}
+
+.fa.active {
+  color: orange;
+}

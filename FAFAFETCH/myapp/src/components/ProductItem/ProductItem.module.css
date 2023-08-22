@@ -1,0 +1,32 @@
+.product_card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .product_card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .product_card h2 {
+    margin-top: 10px;
+  }
+  
+  .product_card button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .product_card button:hover {
+    background-color: #d32f2f;
+  }
